@@ -7,6 +7,23 @@ body, html {
 	width: 100% !important;
 	height: 100% !important;
 }
+#logo {
+	display: inline-block;
+	margin: 10px; /* margin: 20px was off */
+	float: left;
+	height: 80px;
+	width: auto; /* correct proportions to specified height */
+	border-radius: 50%; /* makes it a circle */
+  }
+  .button {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50; /* Green */
+  }
+  .button:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+  }
 h2 {
 	margin: 0 0 20px 0;
 	font-weight: 600;
@@ -31,7 +48,7 @@ p.intro {
 	line-height: 24px;
 }
 a {
-	color: #6aaf08;
+	color: #FFD700;
 	font-weight: 400;
 }
 a:hover, a:focus {
@@ -68,7 +85,7 @@ hr {
 	width: 70px;
 	text-align: center;
 	position: relative;
-	background: #6aaf08;
+	background: #f4c2c2;
 	margin: 0 auto;
 	margin-bottom: 20px;
 	border: 0;
@@ -85,7 +102,7 @@ hr {
 #menu a.navbar-brand {
 	font-size: 26px;
 	font-weight: 600;
-	color: #eee;
+	color: #f4c2c2;
 }
 #menu.navbar-default .navbar-nav > li > a {
 	text-transform: uppercase;
@@ -98,7 +115,7 @@ hr {
 	margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #6aaf08;
+	color: #FFD700;
 }
 .on {
 	background-color: #333 !important;
@@ -106,7 +123,7 @@ hr {
 	padding: 15px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #6aaf08 !important;
+	color: #FFD700 !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -117,7 +134,7 @@ hr {
 	border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #6aaf08;
+	background-color: #FFD700;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -129,7 +146,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #6aaf08;
+	background-color: #FFD700;
 	padding: 14px 20px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -141,7 +158,7 @@ hr {
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-color: #5f9d07;
+	background-color: #FFD700;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -213,7 +230,7 @@ header .intro-text {
 	margin: 20px 0 0 0;
 }
 #about .about-text span {
-	color: #70ad47;
+	color: #FFD700;
 	font-weight: 700;
 	letter-spacing: -1px;
 }
@@ -240,7 +257,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 120px 0;
-	background: #6aaf08;
+	background: #FFD700;
 }
 #services .service-media {
 	margin: 10px;
@@ -299,11 +316,11 @@ ol.type li a {
 	transition: all 0.3s;
 }
 ol.type li a.active {
-	background: #6aaf08;
+	background: #FFD700;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #6aaf08;
+	background: #FFD700;
 	color: #fff;
 }
 .isotope-item {
@@ -515,12 +532,12 @@ color: #777;
 	height: 40px;
 	padding: 10px;
 	background: #444;
-	color: #6aaf08;
+	color: #FFD700;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
 #footer .social i.fa:hover {
-	background: #6aaf08;
+	background: #FFD700;
 	color: #fff;
 }
 #footer p {
