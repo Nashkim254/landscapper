@@ -137,7 +137,14 @@ p{
 .medium-container{
 	max-width:850px;
 }
-
+#logo {
+	display: inline-block;
+	margin: 10px; /* margin: 20px was off */
+	float: left;
+	height: 80px;
+	width: auto; /* correct proportions to specified height */
+	border-radius: 50%; /* makes it a circle */
+  }
 .page-wrapper{
 	position:relative;
 	margin:0 auto;
