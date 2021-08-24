@@ -115,7 +115,7 @@ hr {
 	margin: 9px 20px 0 20px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #FFD700;
+	color: #FFED8A;
 }
 .on {
 	background-color: #333 !important;
@@ -123,7 +123,7 @@ hr {
 	padding: 15px 0 !important;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #FFD700 !important;
+	color: #FFED8A !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -134,7 +134,7 @@ hr {
 	border-color: #fff;
 }
 .navbar-default .navbar-toggle:hover>.icon-bar {
-	background-color: #FFD700;
+	background-color: #FFED8A;
 }
 .section-title {
 	margin-bottom: 70px;
@@ -146,7 +146,7 @@ hr {
 .btn-custom {
 	text-transform: uppercase;
 	color: #fff;
-	background-color: #FFD700;
+	background-color: #FFED8A;
 	padding: 14px 20px;
 	letter-spacing: 1px;
 	margin: 0;
@@ -158,7 +158,7 @@ hr {
 }
 .btn-custom:hover, .btn-custom:focus, .btn-custom.focus, .btn-custom:active, .btn-custom.active {
 	color: #fff;
-	background-color: #FFD700;
+	background-color: #FFED8A;
 }
 .btn:active, .btn.active {
 	background-image: none;
@@ -230,7 +230,7 @@ header .intro-text {
 	margin: 20px 0 0 0;
 }
 #about .about-text span {
-	color: #FFD700;
+	color: #FFED8A;
 	font-weight: 700;
 	letter-spacing: -1px;
 }
@@ -257,7 +257,7 @@ header .intro-text {
 /* Services Section */
 #services {
 	padding: 120px 0;
-	background: #FFD700;
+	background: #FFED8A;
 }
 #services .service-media {
 	margin: 10px;
@@ -316,11 +316,11 @@ ol.type li a {
 	transition: all 0.3s;
 }
 ol.type li a.active {
-	background: #FFD700;
+	background: #FFED8A;
 	color: #fff;
 }
 ol.type li a:hover {
-	background: #FFD700;
+	background: #FFED8A;
 	color: #fff;
 }
 .isotope-item {
@@ -532,12 +532,12 @@ color: #777;
 	height: 40px;
 	padding: 10px;
 	background: #444;
-	color: #FFD700;
+	color: #FFED8A;
 	border-radius: 50%;
 	transition: all 0.3s;
 }
 #footer .social i.fa:hover {
-	background: #FFD700;
+	background: #FFED8A;
 	color: #fff;
 }
 #footer p {
