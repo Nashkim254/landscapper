@@ -1,0 +1,103 @@
+.ch-item {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	cursor: default;
+	box-shadow: 
+inset 0 0 0 16px rgba(255, 204, 50, 0.6), 0 1px 2px rgba(0, 0, 0, 0.3);
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.ch-img-1 {
+	background-image: url(../images/1.html);
+}
+.ch-img-2 {
+	background-image: url(../images/2.html);
+}
+.ch-img-3 {
+	background-image: url(../images/3.html);
+}
+.ch-info {
+	position: absolute;
+	background: rgba(255, 204, 50, 0.8);
+	width: inherit;
+	height: inherit;
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	-webkit-backface-visibility: hidden;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:100%;
+	border:solid 15px #fff;
+}
+.ch-info h3 {
+	color: #222;
+	font-size: 22px;
+	margin: 0 30px 0 30px;
+	padding: 40px 0 10PX 0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	text-align:center
+}
+.ch-info p {
+	color: #222;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 12px;
+	border-top: 1px solid rgba(255, 255, 255, 0.5);
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0.4s;
+	-moz-transition: all 1s ease-in-out 0.4s;
+	-o-transition: all 1s ease-in-out 0.4s;
+	-ms-transition: all 1s ease-in-out 0.4s;
+	transition: all 1s ease-in-out 0.4s;
+	text-align:center
+}
+.ch-info p a {
+	display: block;
+	color: #fff;
+	font-style: normal;
+	font-weight:700px;
+	font-size:13px;
+	letter-spacing: 1px;
+	padding:6px 0 7px;
+	padding-top: 4px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	background:#000;
+	width:120px;
+	margin:0 auto;
+	font-weight:bold;
+}
+.ch-info p a {
+	color: #fff;
+	background:#000;
+}
+.ch-item:hover {
+	box-shadow: 
+ inset 0 0 0 1px rgba(255, 255, 255, 0.1),  0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.ch-item:hover .ch-info {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-o-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1;
+}
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}

@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*-----------------
+[Master Stylesheet]
+Project:	Interior & Furniture
+-----------------*/	
+/*-----------------
+[Table of contents]
+
+1. Body
+2. Click Top / #topcontrol
+4. Header / .header
+5. navbar / .navbar
+6. Theme Banner / #banner
+7. section-about / #section-about
+8. Our Service / #Our Service
+9. section-testimonial / #section-testimonial
+10. section-portfolio / #portfoliolist
+11. bg-image / #bg-image 
+12. event / .event
+13. footer / .footer
+
+--------------------------------------------------------------------
+[Color codes]
+Body-Font:  	#ffffff {white}
+Background:		#ffffff (white)
+Content:		#111111 (dark grey)
+Default:		#fecb38 (Yellow)
+
+a (standard):	#212121 (dark grey)
+a (visited):	#fecb38 (Yellow )
+a (active):	 	#fecb38 (Yellow ) 
+-------------------------------------------------------------------
+Body defaults:14px 'Ubuntu', sans-serif;;
+Input, textarea:14px 'Ubuntu', sans-serif;;
+Notes:	decreasing heading by 0.4em with every subsequent heading level
+-------------------------------------------------------------------*/
+@import url("../font-awesome/css/font-awesome.min.css");
+@import url("bootstrap.min.css");
+@import url("style.css");
+@import url("layout.css");
+@import url("hover.css");
+@import url("one-page.css");
+
+@import url("../js/animate.min.css");
+@import url("style-hover.css");
+@import url("responsive.css");
