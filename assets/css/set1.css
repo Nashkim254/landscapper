@@ -146,6 +146,19 @@ figure.effect-lily:hover p {
 }
 
 /*---------------*/
+/***** About Us style *****/
+/*---------------*/
+#aboutus{
+	color:white 
+} 
+
+#aboutus h2{
+	font-size: 40px; 
+	font-family: Libre Baskerville;
+	margin-top: 40px;
+}
+
+/*---------------*/
 /***** Sadie *****/
 /*---------------*/
 
