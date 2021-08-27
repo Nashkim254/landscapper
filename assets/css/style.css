@@ -1558,8 +1558,46 @@ a.btn-big:after {
 /* ================================================== */
 
 
+/*---------------*/
+/***** About Us style *****/
+/*---------------*/
+#aboutus{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+} 
 
+#aboutus h2{
+	font-size: 40px; 
+	font-family: Libre Baskerville;
+	margin-top: 40px;
+	font-weight: bold;
+}
 
+#aboutus h4{
+	font-size: 20px; 
+	font-family: Libre Baskerville;
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+#aboutus .parallax {
+	background-image: url("../img/portfolio/fullsize/5.jpg");
+  
+	/* Set a specific height */
+	min-height: 500px;
+  
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-blend-mode: lighten;
+  }
+
+/*---------------*/
+/***** About Us style *****/
+/*---------------*/
 
 /* button */
 	/* ------------------------------ */
