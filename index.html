@@ -310,7 +310,8 @@
         <div class="contact-form" >
           <div class="row">
             <div class="col-sm-6 wow fadeIn">
-              <form id="main-contact-form" name="contact-form" method="post" action="#">
+              <h4 class="sent-notification" style="background:lightgreen;width:250px; border-radius:10px;"></h4>
+              <form id="main-contact-form" name="contact-form">
                 <div class="row">
                   <div class="col-sm-6">
                     <div class="form-group">
@@ -330,7 +331,7 @@
                   <textarea id="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required></textarea>
                 </div>
                 <div>
-                  <button type="submit" class="submit-bt2">Send Now </button>
+                  <button type="button" class="submit-bt2" onclick="sendMail()">Send Now </button>
                 </div>
               </form>
             </div>
@@ -435,6 +436,44 @@
         location.href = "#";
     };
 </script>
+
+<!-- Contact Us email capture-->
+<script type="text/javascript">
+    function sendMail(){
+      var name = $("#name");
+      var email = $("#email");
+      var subject = $("#subject");
+      var message = $("#message");
+
+      if(isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(message)){
+        $.ajax({
+          url: 'mail/contact_me.php',
+          method: 'POST',
+          dataType: 'json',
+          data:{
+            name: name.val(),
+            email: email.val(),
+            subject: subject.val(),
+            message: message.val()
+          }, success: function(response){
+            $('#main-contact-form')[0].reset();
+            $('.sent-notification').text("Email sent successfully!");
+          }
+        });
+      }
+    }
+
+    function isNotEmpty(caller){
+      if(caller.val() == ""){
+        caller.css('border','1px solid red');
+        return false;
+      } else{
+        caller.css('border', '');
+        return true;
+      }
+    }
+</script>
+
 <!-- jQuery -->
 </body>
 
