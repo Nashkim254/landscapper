@@ -28,8 +28,8 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPAuth = "true";
-$mail->Username = "queenevolvequalitysolutions@gmail.com";
-$mail->Password = "Queenevolve123";
+$mail->Username = "emailtobeused@gmail.com";
+$mail->Password = "emailPass";
 $mail->Port = 465;
 $mail->SMTPSecure = "ssl";
 
