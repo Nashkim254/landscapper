@@ -28,15 +28,15 @@ $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->Host = "smtp.gmail.com";
 $mail->SMTPAuth = "true";
-$mail->Username = "emailtobeused@gmail.com";
-$mail->Password = "emailPass";
+$mail->Username = "email-here@gmail.com";
+$mail->Password = "email-password-here";
 $mail->Port = 465;
 $mail->SMTPSecure = "ssl";
 
 // email settings
 $mail->isHTML(true);
 $mail->setFrom($email_address, $name);
-$mail->addAddress("queenevolvequalitysolutions@gmail.com");
+$mail->addAddress("email-here@gmail.com");
 $mail->Subject = ("$email_address ($email_subject)");
 $mail->Body = $message;
 
