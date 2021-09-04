@@ -1544,8 +1544,8 @@ a.btn-big:after {
 /*---------------*/
 #aboutus{
 	color: white;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 120%;
+	font-weight: normal;
 } 
 
 #aboutus h2{
@@ -1563,7 +1563,7 @@ a.btn-big:after {
 }
 
 #aboutus .parallax {
-	background-image: url("../img/portfolio/fullsize/5.jpg");
+	background-image: url("../img/portfolio/interior-design.jpg");
   
 	/* Set a specific height */
 	min-height: 500px;
