@@ -184,8 +184,6 @@ font-size:2em;
 transition:all.3s;
 margin:3px 0 0 0;
 }
-.navbar-default .navbar-nav>.active>a {
-}
 .navbar-default.navbar-shrink {
 padding:10px 0;
 border-bottom: 1px solid #414d02;
@@ -232,7 +230,7 @@ font-size:1.5em
   background-color: #800080;
 }
 #logo {
-	display: inline-block;
+	/* display: inline-block; */
 	margin: 10px; /* margin: 20px was off */
 	float: left;
 	height: 80px;
@@ -633,19 +631,8 @@ section#contact .form-control:focus {
 	border-color:#ffcc33;
 	box-shadow:none
 }
-section#contact ::-webkit-input-placeholder {
-}
-section#contact :-moz-placeholder {
-}
-section#contact ::-moz-placeholder {
-}
-section#contact :-ms-input-placeholder {
-}
 section#contact .text-danger {
 	color:#e74c3c
-}
-footer {
-	padding:0;
 }
 .footer a {
 	color:#fff
@@ -769,7 +756,7 @@ img::-moz-selection {
 background:0 0
 }
 body {
-	webkit-tap-highlight-color:#ffcc33
+	-webkit-tap-highlight-color:#ffcc33
 }
 .top-text {
 	width:474px;
@@ -985,8 +972,6 @@ ul.social-network li {
 	margin:10px 0 0 0;
 	padding:0;
 }
-.about-css {
-}
 .about-css h3 {
 	font-size:33px;
 	color:#fff;
@@ -995,8 +980,6 @@ ul.social-network li {
 }
 .about-css h3 a {
 	color:#fff;
-}
-.about-css span {
 }
 .about-css p {
 	line-height:30px;
@@ -1205,10 +1188,8 @@ address span strong {
 .widget-address a {
 	color:#ccc
 }
-section {
-}
 h1, h2, h3, h4, h5, h6 {
-	color: #2c2c2;
+	color: #2c2c2c;
 	font-weight: 400;
 }
 #section-about h3 {
@@ -1562,9 +1543,9 @@ a.btn-big:after {
 /***** About Us style *****/
 /*---------------*/
 #aboutus{
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
+	color: white;
+	font-size: 120%;
+	font-weight: normal;
 } 
 
 #aboutus h2{
@@ -1582,7 +1563,7 @@ a.btn-big:after {
 }
 
 #aboutus .parallax {
-	background-image: url("../img/portfolio/fullsize/5.jpg");
+	background-image: url("../img/interior-design-2.jpg");
   
 	/* Set a specific height */
 	min-height: 500px;
@@ -1672,8 +1653,6 @@ a.btn-big:after {
 .project-images img {
 	width:100%;
 }
-#section-service-1, #section-service-3 {
-}
 .text-css {
 	background:none;
 	border:solid 1px #313133;
@@ -1718,8 +1697,6 @@ a.btn-big:after {
 }
 .brochures p {
 	margin: 11px 0;
-}
-.brochures-lists {
 }
 .brochures-lists li {
 	display: inline-block;
@@ -1848,8 +1825,6 @@ transition: .5s ease;
 .project-single-v1-area {
 	padding:50px 0
 }
-#project-single-area .project-info {
-}
 #project-single-area .project-info h3 {
 	color: #fff;
 	font-size: 24px;
@@ -1881,8 +1856,6 @@ transition: .5s ease;
 #project-single-area .project-info .project-info-list li .icon-holder i {
 	font-size: 14px;
 	color: #97b309;
-}
-#project-single-area .project-info .project-info-list li .text-holder {
 }
 #project-single-area .project-info .project-info-list li .text-holder h5 {
 	color: #fff;
@@ -1959,8 +1932,6 @@ transition: .5s ease;
 .project-single-v1-area .related-project-items .sec-title {
 	padding-bottom: 44px;
 }
-.project-single-v1-area .related-project-items .single-project-item {
-}
 .related-project-items .img-holder .overlay .box .content .icon-holder {
 	background: transparent none repeat scroll 0 0;
 	border-radius: 50%;
@@ -1999,11 +1970,11 @@ transition: .5s ease;
 .imghvr-hinge-up figcaption h3 {
 	margin:0 0 10px 0
 }
-.not-found-area {
+/* .not-found-area {
 none repeat scroll 0 0;
 	padding-bottom: 150px;
 	padding-top: 122px;
-}
+} */
 .not-found-content h1 {
 	color: #fff;
 	font-size: 150px;
@@ -2057,8 +2028,6 @@ none repeat scroll 0 0;
 	top: 0;
 	transition: all 500ms ease 0s;
 	width: 55px;
-}
-.project-info p {
 }
 .project-info2 p {
 	color:#fff
