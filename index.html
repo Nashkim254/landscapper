@@ -20,9 +20,11 @@
   .dropdown-menu{
     display: none;
     position: absolute;
-    background-color: #bdeb34;
-    min-width: 158px;
+    background-color: #bdeb00;
+    min-width: 35vw;
     z-index: 1;
+    border: 1px solid white;
+    border-top: 3px solid black;
   }
 
   .menu-buttons:hover .dropdown-menu{
@@ -49,7 +51,7 @@
 <body id="page-top">
 <div id="preloader"></div>
 <!--navbar-->
-<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background:#bdeb34">
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background:#bdeb34;">
   <div style="margin-left:2%;margin-right:2%;">
     <div class="navbar-header page-scroll">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -63,11 +65,10 @@
           <a class="page-scroll" href="#aboutus">About Us</a>
           <div class="dropdown-menu">
             <ul>
-            <li><a style="background:none" href="#aboutus">About Us</a></li>
-            <li><a style="background:none" href="#sdgs">SDGs</a></li>
-            <li><a style="background:none" href="#big4agenda">Big 4 Agenda</a></li>
-            <li><a style="background:none" href="#mission">Mission</a></li>
-            <li><a style="background:none" href="#vision">Vision</a></li>
+            <li><a style="background:none" href="#aboutus">History / Founder</a></li>
+            <li><a style="background:none" href="#sdgs">Queen Evolve & Achieving SDGs & Big 4 Agenda</a></li>
+            <li><a style="background:none" href="#mission">Mission Statement</a></li>
+            <li><a style="background:none" href="#vision">Vision Statement</a></li>
           </ul>
           </div>
         </li>
@@ -75,14 +76,42 @@
           <a class="page-scroll" href="#Projects">Interior Design</a>
           <div class="dropdown-menu">
             <ul>
-              <li><a class="page-scroll" style="background:none" href="#Projects">Projects</a></li>
+              <li><a class="page-scroll" style="background:none" href="#">Homes</a></li>
+              <li><a class="page-scroll" style="background:none" href="#">Offices</a></li>
+              <li><a class="page-scroll" style="background:none" href="#">Institutions</a></li>
+              <li><a class="page-scroll" style="background:none" href="#">Airports</a></li>
             </ul>
           </div>
           
         </li>
-        <li> <a class="page-scroll" href="#">Blue Technologies</a></li>
-        <li> <a class="page-scroll" href="#">Green Technologies</a></li>
-        <li> <a class="page-scroll" href="#about">Social Services</a></li>
+        <li class="menu-buttons"> 
+          <a class="page-scroll" href="#">Green Technologies</a>
+          <div class="dropdown-menu">
+            <ul>
+                <li><a style="background:none" href="#">Recycle of plastic and rubber waste into shoes and other products</a>
+            </ul>   
+          </div> 
+        </li>
+        <li class="menu-buttons">
+          <a class="page-scroll" href="#">Blue Technologies</a>
+          <div class="dropdown-menu">
+            <ul>
+                <li><a class="page-scroll" style="background:none" href="#">Clean up of ociens, lakes, rivers, dams</a></li>
+                <li><a class="page-scroll" style="background:none" href="#">Recycle waste in ociens, lakes, rivers, dams</a></li>
+            </ul>   
+          </div>          
+        </li>
+        
+        <li class="menu-buttons"> 
+          <a class="page-scroll" href="#about">Social Services</a>
+          <div class="dropdown-menu">
+            <ul>
+            <li><a style="background:none" href="#">Mental Health</a></li>
+            <li><a style="background:none" href="#">Mentorship Programs</a></li>
+            <li><a style="background:none" href="#">Coaching Programs</a></li>
+          </ul>
+          </div>
+        </li>
         <!-- <li><a class="page-scroll" href="#Projects">Projects</a></li> -->
         <li><a class="page-scroll" style="background:none" href="#contact">Contact us</a></li>
 
@@ -371,7 +400,7 @@
         <div class="contact-form" >
           <div class="row">
             <div class="col-sm-6 wow fadeIn">
-              <h4 class="alert alert-success sent-notification"></h4>
+              <h4 class="sent-notification"></h4>
               <form id="main-contact-form" name="contact-form">
                 <div class="row">
                   <div class="col-sm-6">
@@ -398,10 +427,6 @@
             </div>
             <div class="col-sm-6 wow fadeIn">
               <div class="contact-info">
-                <p>Nairobi, Kenya
-                  
-                  Mobile:+254 71653820 or +254 723538205</p>
-                <br>
                 <ul class="address">
                   <li><i class="fa fa-map-marker"></i><span>Address : </span> 61852-00200 City Square Nairobi</li>
                   <li><i class="fa fa-phone"></i><span>Phone :</span>+254 723538205 or +254 716538205 </li>
@@ -434,14 +459,34 @@
 			<h4 id="sdgs" class="wow fadeInDown" style="color:white"><u>Sustainable Development Goals {SDGs} that Queen Evolve Helps to Achieve</u> </h4>
 			<p class="wow fadeInDown">The sustainable development goals were adopted by the UN in 2015 and carries a universal call to action to end poverty, protect the planet, and ensure that by 2030, all people enjoy peace and prosperity. This organization will help Kenya support the achievement of the Big 4 Agenda, which revolve to achieve the following; food security, affordable housing, universal health care, manufacturing and Job creation.</p>
 
-      <h4 class="wow fadeInDown" style="color:white"><u>SDGs</u> </h4>
 			<ul>
-				<li>Goal 1: No poverty </li>
-				<li>Goal 2: Zero Hunger</li>
-				<li>Goal 3: Good Health and Wellbeing</li>
-				<li>Goal 9: industry, Innovation, and Infrastructure</li>
-				<li>Goal 11: Sustainable Cities and Communities</li>
-				<li>Goal 13: Climate Action</li>
+				<li>
+          <u>Goal 2: Zero Hunger</u>
+          <p>Queen Evolve intends to end hunger by empowering thousands of women and girls
+          in sustainable income generation by engaging them in employment and adaptation of
+          green and blue technologies so they can feed their families and communities.</p>
+        </li>
+				<li>
+          <u>Goal 3: Good Health and Wellbeing</u>
+          <p>Queen Evolve intends to achieve to have invested in primary healthcare for all ages by 2030. It will also participate in programs to promote the universal
+          healthcare (UHC) in Kenya and across the globe.</p>
+        </li>
+				<li>
+          <u>Goal 9: industry, Innovation, and Infrastructure</u>
+          <p>By 2030, Queen Evolve will have built resilient infrastructure, promote inclusive
+          and sustainable industrilization and foster innovation. This will be achieved through
+          green and blue technologies initiatives under this company.</p>
+        </li>
+				<li>
+          <u>Goal 11: Sustainable Cities and Communities</u>
+          <p>By converting plastic waste and rubber waste into shoes, Queen Evolve will 
+          participate in creating safe, resilient and sustainable human settlements and cities.</p>
+        </li>
+				<li>
+          <u>Goal 13: Climate Action</u>
+          <p>Queen Evolve will combat greenhouse gases emissions into environment by 
+          collecting all plastic wastes as plastics when exposed to heat and sunlight will release greenhouse gases.</p>
+        </li>
 			</ul>
 
 			<h4 id="big4agenda" class="wow fadeInDown" style="color:white"><u>Big 4 Agenda</u></h4>
@@ -460,6 +505,14 @@
 			
 			<h4 id="mission" class="wow fadeInDown" style="color:white"><u>Mission Statement  </u> </h4>
 			<p>To be a leading future female organization that transform the world through achievement of most of the sustainable goals and to be the first organization to feed the world. </p>
+
+      <h4 id="" class="wow fadeInDown" style="color:white"><u>Core Values</u></h4>
+			<ul>
+				<li>Honesty </li>
+				<li>Trust</li>
+				<li>Respect</li>
+				<li>Value-Centricity </li>
+			</ul>
 		</div>
 	  </div>	
     	
@@ -523,6 +576,7 @@
           }, success: function(response){
             $('#main-contact-form')[0].reset();
             $('.sent-notification').text("Email sent successfully!");
+            $('.sent-notification').css('class','alert alert-success');
           }
         });
       }
