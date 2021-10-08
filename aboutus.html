@@ -16,6 +16,15 @@
 <link href="assets/css/all-css.css" rel="stylesheet" type="text/css">
 <link href="assets/css/set1.css" rel="stylesheet" type="text/css">
 <style>
+  .navbar-default .nav li a {
+	text-transform: none;
+	letter-spacing: 1px;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 25px;
+	font-size: 14px;
+	font-weight: 400;
+}
 
   .dropdown-menu{
     display: none;
@@ -27,8 +36,24 @@
     border-top: 3px solid black;
   }
 
+.dropdown-sub-menu{
+    display: none;
+    background-color: #bdeb00;
+    padding-left: 50px;
+    z-index: 1;
+    font-size: 16px;
+  }
+
   .menu-buttons:hover .dropdown-menu{
     display: block;
+  }
+
+  .menu-buttons:hover .dropdown-menu:hover .dropdown-sub-menu{
+    display: block;
+  }
+
+  .menu-buttons:hover .dropdown-menu:hover .dropdown-sub-menu li:hover{
+    color:#f2bd61;
   }
 
   @media only screen and (max-width:480px){
@@ -62,18 +87,26 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right" style="margin-top:2%">
         <li class="menu-buttons">          
-          <a class="page-scroll" href="#aboutus">Who we are</a>
+          <a class="page-scroll" href="index.html">HOME</a>
+        </li>
+        <li class="menu-buttons">          
+          <a class="page-scroll" href="aboutus.html">ABOUT</a>
           <div class="dropdown-menu">
             <ul>
-            <li><a style="background:none" href="#aboutus">History / Founder</a></li>
-            <li><a style="background:none" href="#sdgs">Queen Evolve & Achieving SDGs & Big 4 Agenda</a></li>
-            <li><a style="background:none" href="#mission">Mission Statement</a></li>
-            <li><a style="background:none" href="#vision">Vision Statement</a></li>
-          </ul>
-          </div> 
+              <li class="sub-menu-buttons"><a style="background:none" href="#">Who we are</a></li>
+                <ul class="dropdown-sub-menu">
+                  <li><a style="background:none" href="#direc">Directors</a></li>
+                  <li><a style="background:none" href="#sdgs">SDGs to Achieve</a></li>
+                  <li><a style="background:none" href="#big4agenda">Big 4 Agenda</a></li>
+                </ul>                  
+              <li><a style="background:none" href="#mission">Mission Statement</a></li>
+              <li><a style="background:none" href="#vision">Vision Statement</a></li>
+              </ul>
+          </div>
         </li>
+  
         <li class="menu-buttons"> 
-          <a class="page-scroll" href="#Projects">Interior Design</a>
+          <a class="page-scroll" href="#Projects">INTERIOR DESIGN</a>
           <div class="dropdown-menu">
             <ul>
               <li><a class="page-scroll" style="background:none" href="#">Homes</a></li>
@@ -85,7 +118,7 @@
           
         </li>
         <li class="menu-buttons"> 
-          <a class="page-scroll" href="#">Green Technologies</a>
+          <a class="page-scroll" href="#">GREEN TECHNOLOGIES</a>
           <div class="dropdown-menu">
             <ul>
                 <li><a style="background:none" href="#">Recycle of plastic and rubber waste into shoes and other products</a>
@@ -93,7 +126,7 @@
           </div> 
         </li>
         <li class="menu-buttons">
-          <a class="page-scroll" href="#">Blue Technologies</a>
+          <a class="page-scroll" href="#">BLUE TECHNOLOGIES</a>
           <div class="dropdown-menu">
             <ul>
                 <li><a class="page-scroll" style="background:none" href="#">Clean up of ociens, lakes, rivers, dams</a></li>
@@ -103,7 +136,7 @@
         </li>
         
         <li class="menu-buttons"> 
-          <a class="page-scroll" href="#about">Social Services</a>
+          <a class="page-scroll" href="#about">SOCIAL SERVICES</a>
           <div class="dropdown-menu">
             <ul>
             <li><a style="background:none" href="#">Mental Health</a></li>
@@ -113,7 +146,7 @@
           </div>
         </li>
         <!-- <li><a class="page-scroll" href="#Projects">Projects</a></li> -->
-        <li><a class="page-scroll" style="background:none" href="#contact">Contact us</a></li>
+        <li><a class="page-scroll" style="background:none" href="#contact">CONTACT US</a></li>
 
       </ul>
     </div>
@@ -138,7 +171,7 @@
 			<p class="wow fadeInDown" > Queen Evolve Interior Designs came into being in 2013 and got registered in 2020 in Kenya. The company is currently based in Kenya and offer its exceptional  services both locally and internationally.</p>
 			<p class="wow fadeInDown" >We provide pocket friendly customized interior designs, an ultimate solution to your floors, walls, lighting, and ceiling. We do this through a friendly consultation service and leave your home or institution totally transformed. You can also trust us for quality modernized curtains, seats, coaches, indoor swing chairs, and overall any office and home furniture of your dreams.</p>
 		
-            <h3 class="wow fadeInDown text-center" style="color:white;font-size:150%; font-weight:normal;">
+            <h3 id="direc" class="wow fadeInDown text-center" style="color:white;font-size:150%; font-weight:normal;">
                 <u>Directors</u>
             </h3>
             <!-- Director 1 -->
