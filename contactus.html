@@ -16,6 +16,7 @@
 <link href="assets/css/all-css.css" rel="stylesheet" type="text/css">
 <link href="assets/css/set1.css" rel="stylesheet" type="text/css">
 <style>
+
   .navbar-default .nav li a {
 	text-transform: none;
 	letter-spacing: 1px;
@@ -36,7 +37,7 @@
     border-top: 3px solid black;
   }
 
-.dropdown-sub-menu{
+  .dropdown-sub-menu{
     display: none;
     background-color: #bdeb00;
     padding-left: 50px;
@@ -93,18 +94,17 @@
           <a class="page-scroll" href="aboutus.html">About</a>
           <div class="dropdown-menu">
             <ul>
-              <li class="sub-menu-buttons"><a style="background:none" href="#">Who we are</a></li>
+              <li class="sub-menu-buttons"><a style="background:none" href="./aboutus.html">Who we are</a></li>
                 <ul class="dropdown-sub-menu">
                   <li><a style="background:none" href="./directors.html">Directors</a></li>
-                  <li><a style="background:none" href="./sdgs.html">SDGs to Achieve</a></li>
+                  <li><a style="background:none" href="./sdgs.html">SDGs</a></li>
                   <li><a style="background:none" href="./sdgs.html">Big 4 Agenda</a></li>
                 </ul>                  
-              <li><a style="background:none" href="#mission">Mission Statement</a></li>
-              <li><a style="background:none" href="#vision">Vision Statement</a></li>
+              <li><a style="background:none" href="./aboutus.html">Mission Statement</a></li>
+              <li><a style="background:none" href="./aboutus.html">Vision Statement</a></li>
               </ul>
           </div>
         </li>
-  
         <li class="menu-buttons"> 
           <a class="page-scroll" href="#Projects">Interior Design</a>
           <div class="dropdown-menu">
@@ -146,7 +146,7 @@
           </div>
         </li>
         <!-- <li><a class="page-scroll" href="#Projects">Projects</a></li> -->
-        <li><a class="page-scroll" style="background:none" href="./contactus.html">Contact Us</a></li>
+        <li><a class="page-scroll" style="background:none" href="#contact">Contact Us</a></li>
 
       </ul>
     </div>
@@ -154,59 +154,62 @@
 </nav>
 <!--navbar-->
 
-  <!-- About Us -->
-  <section id="aboutus">
-  <div class="">
-	 <div class="container" style="color:white;font-size:100%;font-weight:normal;">
-		<div class="heading text-center col-center">
-			<h2 class="wow fadeInDown" style="color:white;font-size:250%; font-weight:normal;padding-top:20vh;">About Us</h2>
-			<hr style="color:yellow;">
-            
-		</div>
-		<div class="text-center col-center" style="color:white;font-size:90%; font-weight:normal;font-style:Montserrat,sans-serif;">
-            <h3 class="wow fadeInDown text-center" style="color:white;font-size:150%; font-weight:normal;">
-                <u>Who we are</u>
-            </h3>
-			<p class="wow fadeInDown">We are a leading company in delivering the best home and institutions’ interior designs, office and events decor and exceptional landscaping designs. Our markets traverses both locally and internationally.</p>
-			<p class="wow fadeInDown" > Queen Evolve Interior Designs came into being in 2013 and got registered in 2020 in Kenya. The company is currently based in Kenya and offer its exceptional  services both locally and internationally.</p>
-			<p class="wow fadeInDown" >We provide pocket friendly customized interior designs, an ultimate solution to your floors, walls, lighting, and ceiling. We do this through a friendly consultation service and leave your home or institution totally transformed. You can also trust us for quality modernized curtains, seats, coaches, indoor swing chairs, and overall any office and home furniture of your dreams.</p>
-		
-            <div class="text-center col-sm-10 col-center" style="color:white;font-size:90%; font-weight:normal;font-style:Montserrat,sans-serif;">
+<!--contact-->
+  <section id="contact" class="contact-us">
+    <div class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-10 col-center" style="padding-top:15vh;">
+            <h2 class="wow fadeInDown"> Contact Us</h2>
+            <p class="wow fadeInDown">Reach us out through the following channels or send us a message</p>
+          </div>
+        </div>
+        <div class="contact-form" >
+          <div class="row">
+            <div class="col-sm-6 wow fadeIn">
+              <h4 class="sent-notification"></h4>
+              <form id="main-contact-form" name="contact-form">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input id="name" class="form-control" placeholder="Name"  type="text">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="form-group">
+                      <input id="email" class="form-control" placeholder="Email Address" type="email">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input id="subject" class="form-control" placeholder="Subject" required  type="text">
+                </div>
+                <div class="form-group">
+                  <textarea id="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required></textarea>
+                </div>
+                <div>
+                  <button type="button" class="submit-bt2" onclick="sendMail()">Send Now </button>
+                </div>
+              </form>
             </div>
-            <hr style="width:70%;">
-    
-            <div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-                    <h4 id="vision" class="wow fadeInDown" style="color:white">
-                        <u>Vision Statement </u> 
-                    </h4>
-                    <p><i>To be the leading interior and exterior design company in transforming the state of institutions, homes, and offices and to lead in employing millions of women and persons with disability across the globe to achieve most of the Sustainable Development Goals.</i></p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-                    <h4 id="mission" class="wow fadeInDown" style="color:white">
-                        <u>Mission Statement  </u>
-                    </h4>
-                    <p><i>To provide quality interior and exterior design services and products to meet all our customers’ needs through modern, inspired green and blue technologies. </i></p>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
-                    <h4 id="" class="wow fadeInDown" style="color:white">
-                        <u>Core Values</u>
-                    </h4>
-                    <ul>
-                        <li>Honesty </li>
-                        <li>Trust</li>
-                        <li>Respect</li>
-                        <li>Value-Centricity </li>
-                    </ul>
-                </div>
+            <div class="col-sm-6 wow fadeIn">
+              <div class="contact-info">
+                <ul class="address">
+                  <li><i class="fa fa-map-marker"></i><span>Address : </span> 61852-00200 City Square Nairobi</li>
+                  <li><i class="fa fa-phone"></i><span>Phone :</span>+254 723538205 or +254 716538205 </li>
+                  <li><i class="fa fa-envelope"></i><span>Email : </span><a href="mailto:contact@StudioUX.com"> &nbsp;info@queenevolve.org</a></li>
+                  <li><i class="fa fa-globe"></i><span>Website : </span><a href="www.queenevolve.org">Queen Evolve</a></li>
+                </ul>
+              </div>
             </div>
-		</div>
-	  </div>	
-    	
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <!-- About Us -->
+  <!--contact-->
 
-</main>
+  </main>
 <!--main-->
 <footer>
   <!--footer-div-->
